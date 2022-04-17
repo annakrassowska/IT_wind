@@ -1,0 +1,29 @@
+//Fonts
+
+$font-size-base: 1rem;
+
+$font-size-1: $font-size-base  *3.25; //  52px;
+$font-size-2: $font-size-base * 2.75; // 44px
+$font-size-3: $font-size-base * 1.75; // 28px
+$font-size-4: $font-size-base * 1.375; // 22px;
+$font-size-5: $font-size-base * 1.125; // 18px
+$font-size-6: $font-size-base * 0.9375; // 15px
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$line-height-base: 28px;
+$line-height-medium: 38px;
+$line-height-large: 52px;
+
+$border-radius: .25rem;
+$grid-base: 10px;
+
+// Breakpoints
+
+$bp-small: '520px';
+$bp-medium: '932px';
+$bp-large: '1280px';

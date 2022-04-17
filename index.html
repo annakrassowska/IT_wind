@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Doradztwo biznesowe IT">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ITwind | Serive & Technology</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="overlay" class="overlay hidden"></div>
+    <header class="header">
+        <div class="container flex">
+
+            <a href="#" class="logo">
+                <img src="./img/ITwind-logo.svg" class="logo" alt="logo-firmy" />
+            </a>
+
+            <nav class="navigation--desktop">
+                <ul>
+                    <li>
+                        <a href="#">Strona główna</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Faq</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button>
+                <a href="#" class="btn btn__header btn--small">Zaloguj się</a>
+            </button>
+
+            <button id="hamburger-menu" class="hamburger">
+                <svg viewBox="0 0 35 35">
+                    <path opacity="0.7" fill="#737373" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                </svg>
+            </button>
+            
+            <div id="menu-mobile" class="navigation--mobile hidden">
+                <div class="menu">
+                    <div class="flex menu__top">
+                        <a href="#" class="logo">
+                            <img src="./img/ITwind-logo.svg" class="logo" alt="logo-firmy" />
+                        </a>
+                        <button id="hide-menu" class="btn-menu">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.1725 7.999L0.5865 3.413C-0.1955 2.633 -0.1955 1.365 0.5865 0.585C1.3665 -0.195 2.6345 -0.195 3.4145 0.585L8.0005 5.171L12.5865 0.585C13.3665 -0.195 14.6345 -0.195 15.4145 0.585C16.1945 1.365 16.1945 2.633 15.4145 3.413L10.8285 7.999L15.4145 12.585C16.1945 13.365 16.1945 14.633 15.4145 15.413C14.6345 16.193 13.3665 16.193 12.5865 15.413L8.0005 10.827L3.4145 15.413C2.6345 16.193 1.3665 16.193 0.5865 15.413C-0.1955 14.633 -0.1955 13.365 0.5865 12.585L5.1725 7.999Z"
+                                    fill="#5956E9" />
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+                <nav>
+                    <ul class="menu-mobile__list">
+                        <li>
+                            <a href="#" class="active">Strona główna</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Faq</a>
+                        </li>
+                        <li>
+                            <a href="#">Kontakt</a>
+                        </li>
+
+                        <button id="btn-mobile" class="btn-menu">
+                            <a href="#" class="btn btn--small">Zaloguj się</a>
+                        </button>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div> 
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION SHOWCASE -->
+        <section class="showcase">
+            <div class="container flex">
+                <div class="showcase__text" data-aos="fade-right" data-aos-delay="200"  data-aos-duration="1000">
+                    <p class="label">Doradztwo biznesowe IT</p>
+                    <h1 class="heading1">Nasza agencja dostarcza najlepsze rozwiązania IT</h1>
+                    <p class="paragraph">Posiadamy ponad 100 profesjonalnych inżynierów programowania z ponad 10-letnim doświadczeniem w dostarczaniu doskonałych produktów</p>
+                    <p class="paragraph"><a href="#" class="btn">Dowiedz się więcej</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION APPLICATION -->
+        <section class="company">
+            <div class="container flex">
+                    <div class="company__content">
+                        <p class="label">O firmie</p>
+                        <h2 class="heading2">Niech poniesie Cię kreatywność</h2>
+                        <p class="paragraph">Czy jakakolwiek branża ma do czynienia z bardziej złożoną podróżą odbiorców i procesem sprzedaży marketingowej niż technologia B2B? </p>
+                        <div class="item">
+                            <img src="img/company-icon-1.svg" class="icon">
+                            <div class="item__text">
+                                <p class="paragraph item--title"><strong>Doświadczenie</strong></p>
+                                <p class="paragraph item--paragraph">Nasz wspaniały zespół ponad 1400 ekspertów ds. Oprogramowania.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/company-icon-2.svg" class="icon">
+                            <div class="item__text">
+                                <p class="paragraph item--title"><strong>Szybkie wsparcie</strong></p>
+                                <p class="paragraph item--paragraph">Pomożemy Ci przetestować nowe, odważne pomysły, jednocześnie udostępniając.</p>
+                            </div>
+                        </div>
+                        <button>
+                            <a href="#" class="btn btn__header btn--small">Dowiedz się więcej</a>
+                        </button>
+                    </div>
+
+                    <img src="img/company-collage.png" class="company__img" alt="zdjęcie aplikacji" data-aos="fade-right" data-aos-delay="200" data-aos-duration="750">
+                    
+                    <!-- <img src="" class="application__img--mobile" alt="zdjęcie aplikacji" data-aos="fade-right" data-aos-delay="200" data-aos-duration="750"> -->
+
+            </div>
+
+            <div class="company-tiles">
+                <div class="container">
+                    <div class="grid">
+                        <div class="tile tile--right">
+                            <span class="tile--number">+35</span>
+                            <p class="tile--title">Państw które obsługuje nasza firma</p>
+                            <p class="tile--paragraph">Aby odnieść sukces, każde rozwiązanie programowe musi być głęboko zintegrowane z istniejącym środowiskiem technologicznym.</p>
+                        </div>
+
+                        <div class="tile tile--left">
+                            <span class="tile--number">40 000</span>
+                            <p class="tile--title">Szczęśliwych klientów</p>
+                            <p class="tile--paragraph">Aby odnieść sukces, każde rozwiązanie programowe musi być głęboko zintegrowane z istniejącym środowiskiem technologicznym.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION SOCIAL -->
+        <section class="about">
+            <div class="container">
+                    <div class="about__text">
+                        <p class="label">Kim jesteśmy</p>
+                        <h2 class="heading2">Zajmujemy się aspektami profesjonalnych usługi IT</h2>
+                    </div>
+
+                    <div class="about__tiles flex">
+                        <div class="about-tile">
+                            <img src="img/company-icon-3.svg" class="icon icon-tile">
+                            <span class="label">Rozwiązanie IT</span>
+                            <p class="paragraph">Sed ut perspiciatis unde omnbis iste natus error volup validate your ideas.</p>
+                            <a href="#" class="tile-btn">
+                                <img src="img/arrow.svg" class="arrow" alt="przycisk">
+                            </a>
+                        </div>
+                        <div class="about-tile">
+                            <img src="img/company-icon-5.svg" class="icon icon-tile">
+                            <span class="label">Rozwiązanie IT</span>
+                            <p class="paragraph">Sed ut perspiciatis unde omnbis iste natus error volup validate your ideas.</p>
+                            <a href="#" class="tile-btn">
+                                <img src="img/arrow.svg" class="arrow" alt="przycisk">
+                            </a>
+                        </div>
+                        <div class="about-tile">
+                            <img src="img/company-icon-6.svg" class="icon icon-tile">
+                            <span class="label">Rozwiązanie IT</span>
+                            <p class="paragraph">Sed ut perspiciatis unde omnbis iste natus error volup validate your ideas.</p>
+                            <a href="#" class="tile-btn">
+                                <img src="img/arrow.svg" class="arrow" alt="przycisk">
+                            </a>
+                        </div>
+                        <div class="about-tile">
+                            <img src="img/company-icon-7.svg" class="icon icon-tile">
+                            <span class="label">Rozwiązanie IT</span>
+                            <p class="paragraph">Sed ut perspiciatis unde omnbis iste natus error volup validate your ideas.</p>
+                            <a href="#" class="tile-btn">
+                                <img src="img/arrow.svg" class="arrow" alt="przycisk">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- SECTION SOCIAL -->
+        <section class="blog section">
+                <div class="container">
+                    <div class="blog__text">
+                        <span class="label">Nasz blog</span>
+                        <h2 class="heading2">Kliknij na nasze najnowsze wiadomości i artykuły artystyczne</p>
+                    </div>
+                    <div class="blog__articles">
+                        <div class="article article--1">
+                            <img src="img/blog-1.png" class="article__img" alt="zdjęcie aplikacji" data-aos="flip-up" data-aos-delay="200" data-aos-duration="750">
+                            <div class="article__date">22 Sie 2021</div>
+                            <div class="article__info">
+                                <div class="comment">3 komentarze</div>
+                                <div class="author">Ernest Marciniak</div>
+                            </div>
+                            <h4 class="article__title heading4">Zdefiniuj najlepszą na świecie technologię rozwiązań IT</h3>
+                            <p class="article__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ...</p>
+                            <a href="#" class="article__button">Czytaj więcej</a>
+                        </div>
+                        <div class="article article--2">
+                            <img src="img/blog-2.png" class="article__img" alt="zdjęcie aplikacji" data-aos="flip-up" data-aos-delay="200" data-aos-duration="750">
+                            <div class="article__date">22 Sie 2021</div>
+                            <div class="article__info">
+                                <div class="comment">3 komentarze</div>
+                                <div class="author">Ernest Marciniak</div>
+                            </div>
+                            <h4 class="article__title heading4">Zdefiniuj najlepszą na świecie technologię rozwiązań IT</h3>
+                            <p class="article__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ...</p>
+                            <a href="#" class="article__button">Czytaj więcej</a>
+                        </div>
+                        <div class="article article--3">
+                            <img src="img/blog-3.png" class="article__img" alt="zdjęcie aplikacji" data-aos="flip-up" data-aos-delay="200" data-aos-duration="750">
+                            <div class="article__date">22 Sie 2021</div>
+                            <div class="article__info">
+                                <div class="comment">3 komentarze</div>
+                                <div class="author">Ernest Marciniak</div>
+                            </div>
+                            <h4 class="article__title heading4">Zdefiniuj najlepszą na świecie technologię rozwiązań IT</h3>
+                            <p class="article__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ...</p>
+                            <a href="#" class="article__button">Czytaj więcej</a>
+                        </div>
+                    </div>
+                    <!-- <img src="img/social.png" class="socialmedia__img" alt="social media" data-aos="fade-left" data-aos-delay="200" data-aos-duration="750"> -->
+                </div>
+        </section>
+
+        <!-- SECTION SHOWCASE -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact__info" data-aos="fade-right" data-aos-delay="200"  data-aos-duration="1000">
+                    <h3 class="contact__heading">Przygotowanie do Twojej firmy sukces dzięki rozwiązaniu IT</h3>
+                    <button class="contact__btn">
+                        <a href="#" class="btn">Skontaktuj się z nami</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info flex">
+                <div class="footer__top">
+                    <a href="#">
+                        <img src="img/ITwind-logo.svg" alt="logo strony">
+                    </a>
+                    <p>ul. Przemysłowa 234, Tarnów 33-100</p>
+                </div>
+                <div class="footer__text">
+                    <p>© ITwind™, 2021. All rights reserved. Obrazki zastosowane w projekcie są użyte jedynie w celach wizualizacyjnych.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/all.js"></script>
+</body>
+</html>

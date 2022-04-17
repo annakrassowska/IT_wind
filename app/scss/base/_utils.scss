@@ -1,0 +1,52 @@
+.u-display-flex {
+    display: flex;
+}
+.u-justify-center {
+    justify-content: center;
+}
+.u-justify-start {
+    justify-content: start;
+}
+.u-justify-end {
+    justify-content: end;
+}
+.u-justify-between {
+    justify-content: space-between;
+}
+
+.u-align-start {
+    align-items: flex-start;
+}
+.u-align-end {
+    align-items: flex-end;
+}
+.u-align-center {
+    align-items: center;
+}
+
+//Spacing
+.u-m-auto {
+    margin: 0 auto;
+}
+
+//overlay
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 16, 61, 0.84);
+}   
+
+.hidden {
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+}
+
+.visible {
+    transform: translateX(0);
+    transition: transform .5s ease-in-out;
+}

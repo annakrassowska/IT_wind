@@ -1,0 +1,69 @@
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.btn {
+    display: inline-block;
+    background-color: $accent-color;
+    color: $white;
+    padding: 18px 36px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: $font-size-6;
+    font-weight: $font-weight-regular;
+    border-radius: $border-radius;
+    transition: background-color .2s ease-in-out, border .2s ease-in-out, color .2s ease-in-out;
+
+    &:hover {
+        color: $accent-color-2;
+        background-color: $white;
+        border-color: $accent-color-2
+    }
+
+    &--small {
+       padding: 12px 36px;
+    } 
+    
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 20;
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+
+    svg, path {
+        fill: $text-color-dark-medium;
+     }
+
+    &:hover {
+        svg, path {
+           fill: $accent-color-2;
+        }
+    }
+
+    @include tablet-up {
+        display: none;
+    }
+}
+
+.btn__header {
+    display: none;
+    @include tablet-up {
+        display: inline-block
+    }
+}
+
+.btn-menu {
+    cursor: pointer;
+    &:hover {
+        svg, path {
+           fill: $accent-color-2;
+        }
+    }
+}

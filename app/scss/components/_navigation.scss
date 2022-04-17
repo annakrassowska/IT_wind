@@ -1,0 +1,91 @@
+.navigation {
+    &--desktop {
+        display: none;
+
+        a {
+            margin: 0 30px;
+            letter-spacing: 0.2px;
+            color: $text-color-dark;
+            font-weight: $font-weight-medium;
+            position: relative;
+            padding-bottom: 41px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 0;
+                height: 8px;
+                background-color: $accent-color;
+                border-radius: 8px 8px 0 0;
+                transition: width .15s ease-in;
+            }
+
+            &:hover {
+                color: $accent-color;
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+        
+        @include tablet-up {
+            display: flex;
+            align-items: center;     
+            ul {
+            display: flex;
+            }
+        }
+    }
+
+    &--mobile {
+        background-color: $white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 33%;
+        left: 0;
+        z-index: 100;
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+
+            &__top {
+                padding: 19px 24px;
+            }
+
+        }
+
+        nav {
+            .menu-mobile {
+
+                &__list {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 55px 0;
+                    align-items: center;
+                    box-shadow: inset 0px 10px 15px rgba(0, 0, 0, 0.1);
+                    li {
+                        padding-bottom: 28px;
+                        a {
+                            text-align: center;
+                            &:hover {
+                                cursor: pointer;
+                                color: $accent-color-2;
+                            }
+                        }
+                    }
+                }
+            }
+            // #btn-mobile {
+            //     padding: 46px 24px;
+            // }
+        }
+
+        @include tablet-up {
+            display: none;
+        }
+    }
+}

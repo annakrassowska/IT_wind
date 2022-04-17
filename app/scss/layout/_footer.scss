@@ -1,0 +1,35 @@
+.footer {
+    margin: 36px 0 80px 0;
+    @include tablet-up {
+        margin: 74px 0 140px 0;
+    }
+
+    &__info {
+        border-top: 1px solid #A1A1AA;
+        padding: 68px 0 23px 0;
+    }
+
+    &__text {
+        max-width: 270px;
+        margin-top: 23px;
+        @include tablet-up {
+            margin-top: 0;
+        }
+    }
+
+    .flex {
+        flex-direction: column;
+        @include tablet-up {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        text-align: left;
+        @include tablet-up {
+            text-align: right;
+        }
+    }
+}
